@@ -11,6 +11,7 @@ public class TestFlowHC {
 	WebDriver driver = new ChromeDriver();
 	
 	driver.get("www.google.com");
+	driver.quit();
 
 	}
 
