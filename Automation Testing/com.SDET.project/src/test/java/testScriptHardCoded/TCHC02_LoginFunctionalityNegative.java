@@ -9,9 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class TCHC01_LoginFunctionalityPositive {
+public class TCHC02_LoginFunctionalityNegative {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws Exception {
 
 		WebDriver driver = new ChromeDriver();
 
@@ -35,13 +35,14 @@ public class TCHC01_LoginFunctionalityPositive {
 
 		WebElement pwsField = driver.findElement(By.name("Password"));
 		wait.until(ExpectedConditions.visibilityOf(pwsField)).clear();
-		pwsField.sendKeys("admin");
+		pwsField.sendKeys("admi");
 
 		Thread.sleep(1000);
 
 		wait.until(ExpectedConditions.elementToBeClickable(By.tagName("button"))).click();
 
-		Thread.sleep(2000);
+		Thread.sleep(1000);
+
 		try {
             WebElement dashboard = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Dashboard")));
             if (dashboard.isDisplayed()) {
@@ -54,7 +55,6 @@ public class TCHC01_LoginFunctionalityPositive {
             driver.quit();
 
         }
-
 	}
 
 }
