@@ -15,7 +15,7 @@ Software testing is to point out the defects and errors that were made during th
 6. Work pressure.
 7. Frequent CR's (change requests).
 
-## Benefits of software testing
+## Benefits of Software Testing
 
 > Software testing helps in finalising the software application against business requirements.
 
@@ -25,4 +25,13 @@ Software testing is to point out the defects and errors that were made during th
 3. Prevents defects.
 4. Ensures the requirements are delivered to the client.
 5. To gain application knowledge or become a subject matter expert.
-6. Helps to gain domain knowledge.
+6. It helps to gain domain knowledge.
+
++ ####  Quality: 
+  Software quality is nothing but delivering the product with a bug-free application on time and meeting all requirements.
++ ####  Defect/Issue:
+  *"Interms of requirements"*  A defect is a deviation or mismatch of requirements.
++ ####  Error/Bug:
+  *"Interms of coding logic"*  Any incorrect human action that produces a problem in the system is called an error, and an error found during the testing phase is called a bug.
++ ####  Failure:
+  The deviation or mismatch identified by the end user while using the system is called a failure.
