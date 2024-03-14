@@ -86,6 +86,7 @@ Software testing is to point out the defects and errors that were made during th
 
 ### 2. Analysis :
   After requirement gathering, those requirements are analysed for their validity and the possibility of developing the requirements in the system.
+  
 **Roles :** System Architect or Sr. Analyst
 
 **Outcome :** RAD (Requirement Analysis document).
@@ -103,23 +104,28 @@ In this phase designers can create 2 documents like below :
 -	LLD's consist of sub modules of main modules along with the data flow diagrams, ER diagram etc. prepared by technical support or designers called internal designers.
 
 **Roles :** Architects & Team.
+
 **Outcome :** Technical Design document (TDD).
 
 ### 4. Coding :
   The actual development starts and the product is built in coding phase. The work is divided in modules then into units where actual coding is started in this coding phase. It is mainly focused by developers. Coding phase is the longest phase of SDLC.
 
 **Roles :** Developers and architect team.
+
 **Outcome :** programs, modules, applications.
 
 ### 5. Testing :
   In this phase the testers execute the test cases (TC's) against the application and reports the defects and retest the fixed defects.
   During this phase unit testing, integration testing, system testing and acceptance testing are done.
+  
 **Roles :** Testers and developers
+
 **Outcome :** Test Plan, Test Case's document, defects and Test Summary Report (TSR).
 
 ### 6. Delivery and Maintenance :
   After successful testing the product is delivered / the code is deployed, during the delivery phase. The Customer will perform UAT (User Acceptance Testing) in real time environment (Production Environment). Once the customers start using the developed system then the actual problems and needs should be solved from time to time. The process where the care is taken for the developed product is known as Maintenance.
 
 **Roles :** Testers, Developers, Customers, Business team, Architects, Project Manager and Delivery Manager.
+
 **Outcome :** Quality Product, Enhancements and production issues (Maintenance).
 
