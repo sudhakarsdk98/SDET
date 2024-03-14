@@ -44,7 +44,7 @@ Software testing is to point out the defects and errors that were made during th
 
 #### Program:
 
-  *A set of lines of code (or) set of methods (or) set of functions (or) set of instructions is called a program.*
+  *A set of lines of code LOC (or) set of methods (or) set of functions (or) set of instructions is called a program.*
 
 #### Module/Component:
   *A set of programs is called a module or component.*
@@ -79,3 +79,47 @@ Software testing is to point out the defects and errors that were made during th
   + How will they use the system?
   + What data should be input into the system ?
   + What data should be output by the system ?
+
+ **Roles :** Business analyst and system architect.
+
+ **Outcomes :** SRS (System Requirements specification) / BRS (Business Requirement Specification) / CRS (Customer Requirement specification) / URS (User Requirement Specification) document / BRD (Business Requirement Document).
+
+### 2. Analysis :
+  After requirement gathering, those requirements are analysed for their validity and the possibility of developing the requirements in the system.
+**Roles :** System Architect or Sr. Analyst
+
+**Outcome :** RAD (Requirement Analysis document).
+
+### 3. Design :
+  During this part of the design phase, the consultants/ Architects break down the system requirements into pieces.
+  System Design helps in specifying hardware and software requirements and also helps in defining the overall system architecture. These system design specifications serve as input for the next phase of the model.
+
+In this phase designers can create 2 documents like below :
+ + HLD’s (High Level Design Document).
+ + LLD’s (Low Level Design Document).
+
+-	HLD's consist of main modules of the project from root to leaf and multiple LLD'S.
+
+-	LLD's consist of sub modules of main modules along with the data flow diagrams, ER diagram etc. prepared by technical support or designers called internal designers.
+
+**Roles :** Architects & Team.
+**Outcome :** Technical Design document (TDD).
+
+### 4. Coding :
+  The actual development starts and the product is built in coding phase. The work is divided in modules then into units where actual coding is started in this coding phase. It is mainly focused by developers. Coding phase is the longest phase of SDLC.
+
+**Roles :** Developers and architect team.
+**Outcome :** programs, modules, applications.
+
+### 5. Testing :
+  In this phase the testers execute the test cases (TC's) against the application and reports the defects and retest the fixed defects.
+  During this phase unit testing, integration testing, system testing and acceptance testing are done.
+**Roles :** Testers and developers
+**Outcome :** Test Plan, Test Case's document, defects and Test Summary Report (TSR).
+
+### 6. Delivery and Maintenance :
+  After successful testing the product is delivered / the code is deployed, during the delivery phase. The Customer will perform UAT (User Acceptance Testing) in real time environment (Production Environment). Once the customers start using the developed system then the actual problems and needs should be solved from time to time. The process where the care is taken for the developed product is known as Maintenance.
+
+**Roles :** Testers, Developers, Customers, Business team, Architects, Project Manager and Delivery Manager.
+**Outcome :** Quality Product, Enhancements and production issues (Maintenance).
+
