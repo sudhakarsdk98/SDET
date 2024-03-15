@@ -309,3 +309,63 @@ Once the final system is developed based on the final Prototype, it is thoroughl
 #### When to use the prototype model :
   Prototype model should be used when described system needs to have lot of interactions with end users
 
+
+### 4. Iterative Model : (Iterative incremental Model)
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/d9451e72-abd0-4424-b2f3-ca479cac444c" height="350" alt="Iterative Model" />
+  <img width="200" />
+  <img width="500" />
+  <img width="500" />
+</div>
+
+#### Mathematical Iterative Incremental Model :
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/ff35de0b-5eda-4cf2-8d54-85e09119f08f" height="350" alt="Iterative Model 2" />
+  <img width="200" />
+</div>
+
+
+  Iterative process starts with a simple implementation of small set of the software requirements and iteratively enhances the evolving versions until the complete system is implemented and ready to be deployed. The basic idea behind this method is to develop a system through repeated cycles (iterative) and in smaller portions at a time (increment).
+
+  An iterative life cycle model doesn't attempt to start with a full specification of requirements. Instead, development begins by specifying and implementing just part of the software, which can then be reviewed in order to identify further requirements. This process is then repeated, producing a new version of the software for each cycle of the model.
+Consider an iterative life cycle model which consists of repeating the following 4 phases in sequence:
+1) Requirement phase.
+2) Design phase.
+3) Implementation & Test phase.
+4) Review Phase.
+
+#### 1. Requirement Phase :
+In which the requirements for the software are gathered and analysed. Iteration should eventually result in a requirement phase that produces a complete and final specification of requirements.
+
+#### 2. Design Phase :
+In which a software solution to meet the requirements are designed. This may be a new design or an extension of earlier design.
+
+#### 3. Implementation and Test phase :
+When the Software or Application or Build is coded, integrated and tested.
+
+#### 4. Review Phase :
+In which the Software is evaluated, the current requirements are reviewed, changes and additions to requirements proposed.
+
+#### Advantages :
+1. Generates working software quickly and early during the software life cycle.
+2. More flexible-less costly to change scope and requirements.
+3. Easier to test and debugging during a small iteration. 
+4. Easier to manage risk because risky pieces are identified and handled during its iteration.
+5. Each iteration is easily managed milestone.
+6. Results are obtained early and periodically.
+7. Parallel development can be planned.
+8. Progress can be measured.
+
+#### Disadvantages :
+1. Each phase of an iteration is rigid and do not overlap each other.
+2. Problems may arise pertaining to system architecture because not all requirements are gathered upfront for entire software life cycle.
+3. More management attention is required.
+4. It's not suitable for smaller projects.
+5. Management complexity is more.
+6. End of the project may not be known which a risk is.
+7. Highly skilled resources are required for risk analysis.
+8. Defining increments may require definition of the complete system.
+
+
