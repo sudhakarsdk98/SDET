@@ -129,3 +129,17 @@ In this phase designers can create 2 documents like below :
 
 **Outcome :** Quality Product, Enhancements and production issues (Maintenance).
 
+## SDLC Models
+
+  1. Waterfall Model.
+  2. V Model.
+  3. Prototype Model.
+  4. Iterative - Incremental Model.
+  5. Spiral Model.
+  6. Big Bang Model.
+  7. Agile Model.
+
+### 1. Waterfall Model.
+
+![Waterfall model](https://github.com/sudhakarsdk98/SDET/assets/161011127/7670287c-e5d9-49a8-8e2a-d392937b8b6f)
+
