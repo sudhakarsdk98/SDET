@@ -490,3 +490,277 @@ Before we continue the Scrum, we should talk about the core roles involved in to
   <img width="100" />
 </div>
 
+#### Roles & Responsibilities in agile :
+
+#### SM (Scrum Master) : 
+  A SM is team leader and facilitator who help the team members to follow agile practices so that they can meet their commitments. The SM responsibilities are as follows.
+- To enable close co-operation between all roles and functions.
+- To remove any road blockers or impediments.
+- To shield the team from any disturbances.
+- To work with the organization to track progress and processes of the company.
+- To ensure the agile inspect and adopt processes are leveraged properly which includes Daily stand-up’s, planned meetings, demo, review, retrospective meetings and to facilitate team meetings and decision-making progress.
+
+#### PO (Product Owner) :
+  A PO is one who drives the product from business perspective. The PO responsibilities are as follows.
+- To define the requirements and prioritise their values.
+- To determine the release date contents.
+- To take any active role in iteration planning and release planning meetings.
+- To ensure that team is working on the most valued requirement.
+- To represent the voice of the customer.
+- To accept the user stories that meet the definition of done and defined acceptance criteria.
+
+#### Phases of Scrum Model :
+
+#### Step 1: Product Backlog creation :
+The PB is a list that consists of features that should be implemented during the Development process. It's ordered by priority wise and it's every item is called a ‘User Story’. Every User Story has or gets unique ID.
+
+##### Ex :
+|   ID.      |  User Story (Description) |
+|------------|------------------------------|
+| US154671   |  As a user icon created or add or delete the order.
+| US186537   | Validate the data column which doesn't have any alphanumeric fields from customer data table.
+
+
+#### Step 2: Sprint Planning and Sprint Backlog creation planning :
+  Firstly, you should determine what your sprints duration will be a short, sprint allows you to release the working version of a product more frequently, as a result customer’s feedback will be received more often and all the possible bugs will be resolved in time.
+As an alternative you can prefer a longer sprint duration, It will allow Developers to work more thoroughly the scrum team can select the most important User Stories from the Product Backlog.
+
+#### Sprint Backlog :
+  It consists of User Stories that will be completed during the current Sprint. The amount of these user stories depends on their duration in story points assigned to each user story during evaluation stage. This should be capable to finish all these User Stories on time.
+
+#### Step 3: Working on the sprint Scrum meetings : 
+  To track the current working process, a task board is commonly used. There are usually big cards with the names of particular User Story and a bundle of little sticky notes with the description of single tasks which are needed for implementation of this or that system.
+
+|  USER STORIES  |	TO DO (TASKS) |	IN-PROGRESS  |	TESTING  |	DONE  |
+|----------------|----------------|--------------|-----------|--------|
+| US983721	     |#3, 6 |	7, 9 |	8 |	16, 17 |
+| US636278	     |10, 11 |	12 |	13, 14 |	15 |
+| US938283(New US) |	#19 |	#20 |	#22 |	#21 |
+
+#### Step 4: Testing and product demonstration :
+
+  Ideal result of every sprint is a working product, the full life cycle testing process is very important. The result of every sprint is product demonstration. The scrum team creates a review and demonstrates the results of their work on this basis the stakeholders take a decision about further project changes.
+
+#### Step 5: Retrospective and next sprint Planning :
+
+  Retrospectives main aim is to discuss the results and determine the ways how to improve Development process on the next step. The team should conclude ‘what went well’ during the working process and ‘what can be done better’ during the iteration. When the ways of improvement are defined the team can concentrate on the next sprint Planning.
+
+#### Conclusion :
+  These main distinctive features of Scrum are agility and continuous progress. It's provided mostly by permanent communication and close cooperation between the stakeholders at each step. At this phase of sprint Planning the PO communicates with the Scrum team, They define how they can divide the existing user story into several tasks.\
+  \
+  During the regular Scrum meetings, the team members can discuss the implementation of each particular task and the ways of solving possible problems. When the sprint is finished, the customer can evaluate the working product functionality at the current iteration. There is a possibility for him to arrive at a decision about further improvements or changes the initial projects paradigm. Finally, all information received during these steps can be used to improve the next sprint results, which helps optimize the development process in the best possible way.
+
+#### _User Story’s Status process in Rally :_
+
+#### User Story Status in Rally: (Rally – Test Management & Defect tracking Tool)
+1.	**Grooming** (Initially created the User Story then Status is – Grooming)
+2.	**Defined**  (Created multiple tasks under “User Story” with defined status then User Story status is changed to – Defined automatically).
+     + **Note :** TASK’s Status standard process is “Defined” ▶️ “In-Progress”  ▶️ “Completed”.
+3.	**In-Progress** (If any one of the task status has changed from “Defined” to “In-Progress” then User Story status is changed to “In-Progress” automatically)
+4.	**Completed** (If all TASK’s status has changed to “Completed” Status then User Story Status is “Completed” automatically).
+5.	**Accepted** (The US’s status is changed to accepted by PO).
+
+#### SCRUM CEREMONIES or EVENTS :
+1)	Sprint
+2)	Sprint Planning
+3)	Daily Scrum
+4)	Sprint Review
+5)	Sprint Retrospective.
+
+#### SCRUM Values :
+1)	Commitment 
+2)	Courage
+3)	Focus
+4)	Openness
+5)	Respect
+
+#### Scrum Roles :
+S.M - Scrum Master, 
+P.O - Product Owner, 
+DEV - DEV Team (DEV + QA).
+
+#### Scrum Artifacts :
+1)	P.B - Product Backlog
+2)	S.B - Sprint Backlog
+3)	P.I - Product Increment (PI).
+
+#### Scrum Pillars :
+1)	Transparency
+2)	Inspection 
+3)	Adoption
+
+#### Story points – This is to Estimation hours of your allocated task.
+Story points assigned based on the Fibonacci series
+Fibonacci Series – 1, 2, 3, 5, 8, 13 …….
+1 Story Point = 8 hours (As per the organizational standards)
+2 Story Point = 16 hours
+3 Story Point = 24 hours
+5 Story Point = 40 hours
+8 Story Point = 64 hours
+_____________________
+
+
+**Note :** As per the sprint wise working allocation hours 6.5 hrs per day (As per the Organizational Standards)
+1 Sprint = 10 business working days = 10*6.5 = 65 hours (Capacity).
+
+### Ways of Testing :
+
+1. Manual Testing.
+2. Automation Testing.
+
+**1. Manual Testing :** TC's are executing by manually or without any automation tool and find out the intent of defects or mismatch of the requirements is called Manual Testing.
+
+**2. Automation Testing :** Testing is performed with the help of third-party tool or automation tool is called automation testing.
+
+#### Testing Methodologies :
+1. Black Box Testing 
+2. White Box Testing 
+3. Grey Box Testing
+
+### Black Box Testing: (BB Testing)
+The technique of testing without having technical knowledge of an application, specification-based testing technique is also known as BB or Input / Output driven testing techniques because they view the software as a BB with inputs and outputs.
+
+#### Who will perform BB testing :
+Testing team will perform the BB testing, the testers have no knowledge of how the system or component is structured inside the box. In BB testing the tester is concentrating on what the software does not, how does it?
+
+#### How to perform the BB testing :
+BB testing, also known as black box testing, encompasses both functional and non-functional testing. Functional testing focuses on assessing what the system does, including its features or functions. Non-functional testing evaluates aspects such as performance, usability, portability, and maintainability, among others.
+
+#### Advantages :
+1) well suited and efficient for large code segments.
+2) Code access is not required.
+3) Clearly separates user’s perspective from the Developers perspective through visibly defined roles.
+4) Large number of moderately skilled testers can test the application with no knowledge of implementation, programming knowledge or Operating System.
+
+#### Disadvantages :
+1) Limited coverage since only a selected number of test scenarios are actually performed.
+2) Inefficient testing due to the fact that the tester only has limited knowledge about an application.
+3) Blind coverage since the tester can’t target specific code segments or error prone areas.
+4) The TC's are different to design.
+
+### BB Testing techniques :
+1.	BVA: (Boundary Value Analysis)
+2.	ECP (Equivalence class partition) or EP (Equivalence Partition)
+3.	Error Guessing
+4.	Decision table testing
+5.	State transition testing
+6.	UC testing (Use Case)
+7.	All pairs testing And
+8.	Orthogonal arrays testing
+
+**Case study :** Successful enter the User ID(4-16ch) with alphanumeric.
+BVA (Size): Min Value = 4 & Max Value = 16.
+                      Min --> 4 char = pass
+                      Min-1 --> 3 char = fail
+                      Min+1 --> 5 char = pass
+                      Max-1 --> 15 char = pass
+                      Max+1 -->  17 = fail
+                      Max --> 16 char = pass
+                      \
+ECP:       Valid.      Invalid
+           a-z.         Special characters
+           A-Z.         Blank
+           0-9.         Spaces
+
+Test Case Design techniques help us to identify whether the right input is selected or not.
+
+#### Error Guessing :
+In Error Guessing, we design the test cases by selecting inputs such that when these inputs are given to the application, the application should throw error.
+
+#### Example of Error Guessing :
+Let us assume there is an amount field in an application and the amount field should accept minimum value as 200 and the maximum value as 50,000.
+
+So, using error guessing we will design test cases like:
+-	When Value less than 200 is entered in the amount field then the application should throw an error.
+-	When Value Greater than 50,000 is entered in the amount field then the application should throw an error.
+-	When the decimal value (200.33) is entered in the amount field then the application should throw an error.
+-	When Value is entered as $50 in the amount field then the application should throw an error.
+
+#### Equivalence Partitioning :
+  In Equivalence partitioning, we divide the input data of the software into a partition of equivalent data from which the test cases can be designed.
+
+**Type 1 :** If the input is a range of value between A to B (5-12 characters) then design the test case by selecting one valid input and two invalid inputs.\
+**Example :** Suppose there is a password field which accepts 5 to 12 characters, we will select one valid value as 6 and two invalid values as 4 and 13.\
+
+**Type 2 :** If the input is a set of values, then design the test case by selecting one valid value that belongs to set and one invalid value that does not belongs to the set.\
+**Example :** Suppose there is a set of values as {116,120,140,150} then while designing test cases we will select one valid value as 120 which belongs to set and one invalid as 170 that does not belong to set.\
+
+**Type 3 :** If the input is the Boolean value, then select the test case for both true and false conditions.\
+**Example :** Radio button, Checkbox.
+
+#### Boundary Value Analysis :
+If the input is a range of between A to B, then design the test case by selecting the value such as A, A+1, A-1 and B, B+1, B-1.
+
+**Example :** There is an amount field which should accept amount greater than equal to 200 and amount less than equal to 50,000 so in this case, we will select input as {200,199,201} and {50000,50001,49999}
+
+#### Conclusion :
+Test case design technique allows you to design better test cases.
+
+### White Box Testing : 
+It is a Structure based testing technique and also known as WB testing or glass box testing technique, because here testers require knowledge of how the s/w is implemented and how it works.
+
+**Who will perform WB Testing :** Developers use based structure techniques in component, integration testing, especially where there is good tool support for code-coverage.
+
+**How to perform the WB Testing :**
+WB testing is the detailed investigation of internal logic and structure of the code. WB testing is also called as glass box or open box testing.
+
+#### There are 3 possible WB testing techniques
+1. Execution Testing
+2. Operation Testing
+3. Mutation Testing
+
+#### 1. Execution Testing :
+#### a. Basic path coverage :
+  Execution of all possible blocks in a program.
+#### b. Loops Coverage :
+  Termination of loop statements. (For loop, While loop, Do loop etc.,) 
+#### c. Program Technique coverage : 
+  There is need to be work on less memory or no memory cycles and CPU Cycles.
+#### 2. Operation Testing: (Compatibility or Port Testing)
+  Running the application on customer expected platforms. (OS compatibility & Browser Compatibility etc.,).
+#### 3. Mutation Testing :
+  Mutation refers to the deliberate alteration of a program. During mutation testing, WB (white-box) testers intentionally modify the program to assess test coverage. This process helps determine the adequacy of test coverage by evaluating how well the tests detect the changes introduced through mutations.
+
+#### Advantages :
+1. As the tester has knowledge of the source code, it becomes very easy to find out which type of data can help in testing the application effectively.
+2. It helps in optimising the code.
+3. Extra lines of code (LOC) can be removed which can bring in hidden defects.
+4. Due to the tester's knowledge about the code maximum coverage is attained during the test scenario writing. 
+
+#### Disadvantages :
+1. Due to the fact that a skilled tester is needed to perform WB testing, the costs are increased. 
+2. Sometimes it is impossible to look into every hook & corner to find out hidden errors that may create problems as may paths will go untested.
+3. It is difficult to maintain WB testing as the use of specialized tools like code analysers and debugging tools are required.
+
+### Grey Box Testing :
+  GB testing is a technique to test the s/w product or application with partial of the internal workings of an application. In this process content specific errors that are related to web systems are commonly identified. It will increase the testing coverage by concentrating on all of the layers of any complex system.\
+GB testing is combination of both WB testing and BB testing method.
+
+**Who will perform the GB testing?**
+  Unlike BB testing where the tester only tests the applications UI (User Interface), in Grey Box Testing the tester has access to design the documents and the DB having this knowledge. The User is able to better test data and test scenarios when making the test plan.
+
+#### Advantages :
+1. Offers combined benefits of BB and WB testing wherever possible.
+2. GB testers don't rely on the source code instead they rely on interface definition and functional specifications.
+3. Based on the limited information available, a Grey Box tester can design execute the test scenarios especially around communication protocols and data type handling.
+4. The test is done from the point of view of the user and not the designer.
+
+#### Disadvantages :
+1. Since the access to source code is not available, the ability to go over the code and test coverage is limited.
+2. The tests can be redundant if the s/w designer has already run a test case.
+3. Testing every possible Input stream is unrealistic because it would take an unreasonable amount of time, therefore many program paths will go untested.
+
+
+#### Difference between BB, GB & WB Testing :
+**BB vs GB vs WB**
+
+| BLACK BOX		|	GREY BOX		|	WHITE BOX |
+|-------------|-------------|-----------|
+|1. The internal workings of applications are not required to be known.|1. Somewhat knowledge of the internal workings are known.|1. Testers have full knowledge of internal workings of the application.|
+|2. Also known as closed box testing, Data driven testing and functional testing.|2. Another term for GB testing is translucent testing, as the tester has limited knowledge of the insides of application. |2. Also known as clear box testing, structural testing or code-based testing.|
+|3. Performed by end users and also by testers and developers.|3. Performed by end users and also by testers and developers.|3. Normally done by testers and developers.|
+|4. Testing is based on external expectations; internal behaviour of the application is unknown.|4. Testing is done on the basis of high-level DB diagrams and data flow diagrams.|4. Internal workings are fully known and the tester can design test data accordingly.|
+|5. This is the time consuming and exhaustive.|5. Partly time consuming and exhaustive.|5. The most exhaustive and time-consuming type of testing.|
+|6. Not Suited to algorithm testing.|6. Not Suited to algorithm testing.|6. Suited for algorithm testing.|
+|7. This is only be done by trial-and-error method.|7. Data domains and internal boundaries can be tested if known.|7. Data domains and internal boundaries can be better tested.|
+
