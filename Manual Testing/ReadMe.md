@@ -589,18 +589,17 @@ DEV - DEV Team (DEV + QA).
 2)	Inspection 
 3)	Adoption
 
-#### Story points – This is to Estimation hours of your allocated task.
-Story points assigned based on the Fibonacci series
-Fibonacci Series – 1, 2, 3, 5, 8, 13 …….
-1 Story Point = 8 hours (As per the organizational standards)
-2 Story Point = 16 hours
-3 Story Point = 24 hours
-5 Story Point = 40 hours
-8 Story Point = 64 hours
-_____________________
+#### Story points – This is to Estimation hours of your allocated task. 
+Story points assigned based on the Fibonacci series \
+Fibonacci Series – 1, 2, 3, 5, 8, 13 ……. \
+1 Story Point = 8 hours (As per the organizational standards) \
+2 Story Point = 16 hours \
+3 Story Point = 24 hours \
+5 Story Point = 40 hours \
+8 Story Point = 64 hours 
 
 
-**Note :** As per the sprint wise working allocation hours 6.5 hrs per day (As per the Organizational Standards)
+**Note :** As per the sprint wise working allocation hours 6.5 hrs per day (As per the Organizational Standards) \
 1 Sprint = 10 business working days = 10*6.5 = 65 hours (Capacity).
 
 ### Ways of Testing :
@@ -648,14 +647,14 @@ BB testing, also known as black box testing, encompasses both functional and non
 7.	All pairs testing And
 8.	Orthogonal arrays testing
 
-**Case study :** Successful enter the User ID(4-16ch) with alphanumeric.
-BVA (Size): Min Value = 4 & Max Value = 16.
-                      Min --> 4 char = pass
-                      Min-1 --> 3 char = fail
-                      Min+1 --> 5 char = pass
-                      Max-1 --> 15 char = pass
-                      Max+1 -->  17 = fail
-                      Max --> 16 char = pass
+**Case study :** Successful enter the User ID(4-16ch) with alphanumeric. \
+BVA (Size): Min Value = 4 & Max Value = 16. \
+                      Min --> 4 char = pass \
+                      Min-1 --> 3 char = fail \
+                      Min+1 --> 5 char = pass \
+                      Max-1 --> 15 char = pass \
+                      Max+1 -->  17 = fail \
+                      Max --> 16 char = pass \
                       \
 ECP:       Valid.      Invalid
            a-z.         Special characters
@@ -679,13 +678,13 @@ So, using error guessing we will design test cases like:
 #### Equivalence Partitioning :
   In Equivalence partitioning, we divide the input data of the software into a partition of equivalent data from which the test cases can be designed.
 
-**Type 1 :** If the input is a range of value between A to B (5-12 characters) then design the test case by selecting one valid input and two invalid inputs.\
-**Example :** Suppose there is a password field which accepts 5 to 12 characters, we will select one valid value as 6 and two invalid values as 4 and 13.\
+**Type 1 :** If the input is a range of value between A to B (5-12 characters) then design the test case by selecting one valid input and two invalid inputs. \
+**Example :** Suppose there is a password field which accepts 5 to 12 characters, we will select one valid value as 6 and two invalid values as 4 and 13.
 
-**Type 2 :** If the input is a set of values, then design the test case by selecting one valid value that belongs to set and one invalid value that does not belongs to the set.\
-**Example :** Suppose there is a set of values as {116,120,140,150} then while designing test cases we will select one valid value as 120 which belongs to set and one invalid as 170 that does not belong to set.\
+**Type 2 :** If the input is a set of values, then design the test case by selecting one valid value that belongs to set and one invalid value that does not belongs to the set. \
+**Example :** Suppose there is a set of values as {116,120,140,150} then while designing test cases we will select one valid value as 120 which belongs to set and one invalid as 170 that does not belong to set.
 
-**Type 3 :** If the input is the Boolean value, then select the test case for both true and false conditions.\
+**Type 3 :** If the input is the Boolean value, then select the test case for both true and false conditions. \
 **Example :** Radio button, Checkbox.
 
 #### Boundary Value Analysis :
