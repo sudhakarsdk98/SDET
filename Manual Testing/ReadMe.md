@@ -439,3 +439,54 @@ Risk analysis includes identifying, estimating and monitoring the technical feas
   <img width="200" />
 </div>
 
+#### Principles of agile testing :
+
+#### 1. Provides Continuous feedback :
+
+  This is needed for the person leading the team and to improve their ability and to motivate them, feedback is necessary where they will know their feedback and can work on it.
+
+#### 2. Delivery value to customer :
+
+Acceptance of tests helps all understanding of what it means on the realisation of customer needs.
+
+#### 3. Enable face to face communication :
+
+  Here testers play a major role in bringing the customer and testers together on a face-to-face communication where by them the problem can be solved regarding the bug and software. A tester can be the ones who physically brings these people together as well the ones who drives the common language between these parties.
+
+#### 4. Self-Organize :
+
+In true agile team everyone has the role to act as a tester. They should know how to shift the focus from time to time when needed. They have to focus their attention towards verifying DONE attitude rather than DONE DONE attitude.
+
+#### 5. Focus on people : 
+Testers are basically at the bottom of the line in the non-agile software team; to them, the works are given particular time to complete, and the programmers look like those lower to them.
+
+#### 6. Keep it simple :
+Testers can help the customers to understand how to prominently deliver value. They have to provide an equal balance of iterative testing just a right confidence to deliver the software.
+
+### Scrum :
+
+Development divides into several phases. Each of the results is into a ready-to-use product. At the end of each step (called sprint in Scrum terminology) a ready product is delivered to a customer.
+
+“Scrum is a framework within which people can address complex adoptive problems while productively and creatively to deliver of the highest possible value.”
+
+Before we continue the Scrum, we should talk about the core roles involved in to the process.
+
+> - PO (Product Owner): he takes care of the end users interests and determines the importance of the proper user story.
+
+> - SM (Scrum Master): He should coordinate the whole process. Another task is to make sure that scrum is used in proper way. He is also holding the scrum meeting.
+  SM is also called as “Servant Leader” or “Team Leader” or “Agile Coach” or “Facilitator”.
+
+> - DEV Team: Develops the product, it maintains tasks are programming, analysis, testing etc and defines the appropriate labour costs. 
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/b9cbefcd-905f-4cb4-8c9b-83bfb70a3fac" height="80" alt="Scrum Team = PO + SM + DEV Team." />
+  <img width="100" />
+</div>
+
+#### Standards process in Rally: (What is the Rally – It is a one of the test management and defect tracking tool).
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/74541552-b3fb-4fc2-aa54-6ebfab76b654" height="300" alt="Rally Process" />
+  <img width="100" />
+</div>
+
