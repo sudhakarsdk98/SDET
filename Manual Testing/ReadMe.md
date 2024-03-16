@@ -369,3 +369,73 @@ In which the Software is evaluated, the current requirements are reviewed, chang
 8. Defining increments may require definition of the complete system.
 
 
+### 5. Spiral Model :
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/f742691f-2eeb-494b-a955-79a76b0e0c0f" height="250" alt="Spiral Model" />
+  <img width="150" />
+</div>
+
+The spiral model is a combination of the iterative development process model and the linear sequential development model. It allows incremental releases of the product or incremental refinement through each iteration around the spiral.
+
+#### Phases :
+1. Identification
+2. Design
+3. Construct or build
+4. Evaluation and Risk analysis
+
+#### Identification:
+It starts with gathering the business requirements in the baseline spiral. In the subsequent spirals as the product matures, identification of the system requirements, subsystem requirements, and unit requirements is all done in this phase.
+
+#### Design :
+Starts with the conceptual design in the baseline spiral and involves architectural design, logical design of modules, physical product design and the final design in the subsequent spirals.
+
+#### Construct and Build :
+The construct phase refers to production of the actual software product at every spiral in the baseline spiral, when the product is just thought of the design is being developed a POC (proof of concept). It is developed in this phase to get the customer feedback, then in the subsequent spirals with high clarity on requirements and design details a working model of the software called 'Build' is produced with a version number.
+
+#### Evaluation and Risk analysis :
+Risk analysis includes identifying, estimating and monitoring the technical feasibility and management risks such as schedule slippage and cost overcome after testing the build at the end of first iteration. The customer evaluates the software and provides feedback.
+
+#### Advantages :
+- CR’s (changing requirements) are can be accommodated.
+- Requirements can be captured more accurately.
+- Users see the system early.
+- Development can be divided into smaller parts and the risky parts can be developed earlier which helps in better risk management.
+
+#### Disadvantages :
+- Management is more complex.
+- End of the project may not be known early.
+- Not suitable for small or low risk projects and could be expensive for smaller projects.
+- Process is complex
+- Spiral may go on indefinitely.
+- Large number of intermediate stages requires excessive documentation.
+
+
+### 6. Big Bang Model :
+
+  It is an SDLC model where we don't follow any specific process. The development just starts with the required money and efforts as the input and the output is the software developed which may or may not be as per customer requirement. Even the customer is not sure about what exactly he wants and the requirements are implemented on the fly without much analysis.
+
+#### Design and application :
+  The Big Bang model comprises of focusing all the possible resources in the software development and coding with very little or no planning. The requirements are understood and implemented as they come. Any changes required may or may not need to revamp the complete software.
+
+#### Advantages :
+- This is very simple model.
+- Little or no planning.
+- Required easy to manage
+- Very few resources are required
+- Gives flexibility to developers.
+- It is a good learning aid for new comers and students.
+
+#### Disadvantages :
+- Very risk and uncertainty
+- It is Not a good model for complex and object-oriented projects.
+- Poor model for long and on-going projects. 	
+- Can turn out to be very expensive if requirements are misunderstood.
+
+### 7. Agile Model :
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/ccca748f-5f56-4d70-b280-483330cccb56" height="400" alt="Agile Model" />
+  <img width="200" />
+</div>
+
