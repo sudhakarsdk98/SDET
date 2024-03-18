@@ -1358,63 +1358,186 @@ The life cycle of the bug can be shown diagrammatically as follows.
   <img width="100" />
 </div>
 
-New: when defect is logged and posted for the first time by the tester. Its state is given as 'New'.
+**New :** when defect is logged and posted for the first time by the tester. Its state is given as 'New'.
 
-Assigned: After the tester has posted the bug, the lead of the Development team approves that the bug is genuine and he assign the bug to corresponding Developer. Its state changed as “Assigned”.
+**Assigned :** After the tester has posted the bug, the lead of the Development team approves that the bug is genuine and he assign the bug to corresponding Developer. Its state changed as “Assigned”.
 
-Open: At this stage the Developer has stated analysing and working on the defect fix.
+**Open :** At this stage the Developer has stated analysing and working on the defect fix.
 
-Fixed: When Developer makes necessary code changes and verifies the changes then he/she can make bug status as fixed and the bug is passing to testing team.
+**Fixed :** When Developer makes necessary code changes and verifies the changes then he/she can make bug status as fixed and the bug is passing to testing team.
 
-Retest: At this stage the tester does the Re-Testing of the changed code which Developer has given to him to check whether the defect got fixed or not.
+**Retest :** At this stage the tester does the Re-Testing of the changed code which Developer has given to him to check whether the defect got fixed or not.
 
-Verified: The tester tests the bug again after it got fixed by the Developer. If the bug is not present in the software, he (Tester) approves that the bug is fixed and changes the status as verified.
+**Verified :** The tester tests the bug again after it got fixed by the Developer. If the bug is not present in the software, he (Tester) approves that the bug is fixed and changes the status as verified.
 
-Reopen: If the bug is still existing even after the bug is fixed by the Developer, the tester changes the status to 're-open’. The bug goes through the defect life cycle once again.
+**Reopen :** If the bug is still existing even after the bug is fixed by the Developer, the tester changes the status to 're-open’. The bug goes through the defect life cycle once again.
 
-Closed: Once the bug is fixed, it is tested by the tester. If the tester feels that the bug is no longer exists in the software, the changes status of the bug to 'closed'. This state means that the bug is fixed, tested and approved.
+**Closed :** Once the bug is fixed, it is tested by the tester. If the tester feels that the bug is no longer exists in the software, the changes status of the bug to 'closed'. This state means that the bug is fixed, tested and approved.
 
-Duplicate: If the bug is repeated twice or two bugs mentioned the same concept of the bug, then the bug status is changed to 'Duplicate' by Developer.
+**Duplicate :** If the bug is repeated twice or two bugs mentioned the same concept of the bug, then the bug status is changed to 'Duplicate' by Developer.
 
-Rejected: If the Developer feels that the bug is not genuine, he rejects the bug. Then the state of the bug is changed to 'Rejected'.
+**Rejected :** If the Developer feels that the bug is not genuine, he rejects the bug. Then the state of the bug is changed to 'Rejected'.
 
-Deferred: The bug is changed to deferred state means that bug is expected to be fixed in next releases. The reason for the changing the bug to this state have many factors. Some of them are priority of the bug may be low, lack of time for the release or the bug may not have major effect on the software.
+**Deferred :** The bug is changed to deferred state means that bug is expected to be fixed in next releases. The reason for the changing the bug to this state have many factors. Some of them are priority of the bug may be low, lack of time for the release or the bug may not have major effect on the software.
 
-Not A Bug: The state given as ' Not a bug’, If there is no change in the functionality of the application.
+**Not A Bug :** The state given as ' Not a bug’, If there is no change in the functionality of the application.
+
 Ex. If the customer asks for some changes in the look and feel of the application like change of colour of some text them it not a bug, but it just some changes in the looks of the application.
 
-Severity: (Seriousness of the functionality)
+### Severity: (Seriousness of the functionality)
 Seriousness of the defect w.r.to the functionalities. It is the extent to which the defect can affect the software. In other words, it defines the impact that a given defect has on the system.
+
 If an application or webpage crashes when remote link is clicked, in this case the remote link by a user is rare but the impact of the application crashing is severe so the severity is high but priority is low.
 
-Status1 - Critical: The defect that results in the termination of the complete system or one or more.
+**Status 1 - Critical :** The defect that results in the termination of the complete system or one or more.
 Component of the system and causes extensive corruption of the data the failed function is unusable and there is no acceptable alternative method to achieve the required results then the severity will be stated as critical.
 
 Note: Critical defect should be fixed within 24 hours by Developer.
 
-Status2 - Major: The defect that results in the termination of the complete system or one or more, Component of the system and causes extensive corruption of the data the failed function is unusable and there exists an acceptable alternative method to achieve the required results then the severity will be stated as Major.
+**Status 2 - Major :** The defect that results in the termination of the complete system or one or more, Component of the system and causes extensive corruption of the data the failed function is unusable and there exists an acceptable alternative method to achieve the required results then the severity will be stated as Major.
 
 Note: Major defect should be fixed within 48 hours by Developer.
 
-Status3 - Medium:
+**Status 3 - Medium :**
 The defect that doesn't results in the termination, but causes the system to produce incorrect, incomplete or inconsistent results then the severity will be stated as moderate.
 
 Note: Medium defect should be fixed within 3 days by Developer. 
 
-Status4 - Minor:
-The defect that doesn't results in the termination and doesn’t damage the usability of the system and the desired results can be easily obtained by working around the defects then the severity is stated as minor.
+**Status 4 - Minor :** The defect that doesn't results in the termination and doesn’t damage the usability of the system and the desired results can be easily obtained by working around the defects then the severity is stated as minor.
 
-Status5 - Cosmetic:
-The defect that is related to the enhancement of the system where the changes are related to the look and feel of the application then the severity is stated as cosmetic.
+**Status5 - Cosmetic :** The defect that is related to the enhancement of the system where the changes are related to the look and feel of the application then the severity is stated as cosmetic.
 
-Priority: (Importance of the customer)
+### Priority: (Importance of the customer)
 Priority defines the order in which we should resolve a defect. Should we fix it now or can it wait?
 The priority states are set by the tester to the Developer maintaining the time frame to fix the defect. If high priority is mentioned then the Developer has to fix it at the earliest. This priority status is set based on the customer Requirements.
+
 Ex: if the company name is misspelled in the home page of the website then the priority is high and severity is low to fix it.
 
-Status1 - Low: The defect is an irritant we should be repaired, but repair can be differed until after more serious defect has been fixed.
+**Status 1 - Low :** The defect is an irritant we should be repaired, but repair can be differed until after more serious defect has been fixed.
 
-Status2 - Medium: The defect should be resolved in the normal cause of Development activities. It can wait until a new build or version.
+**Status 2 - Medium :** The defect should be resolved in the normal cause of Development activities. It can wait until a new build or version.
 
-Status3 - High: The defect must be resolved ASAP because the defect is affecting the application or the product is severely. The system cannot be used until the repair has been done.
+**Status 3 - High :** The defect must be resolved ASAP because the defect is affecting the application or the product is severely. The system cannot be used until the repair has been done.
 
+**Common Defect Tracking Tools :**
+
+1.Bugzilla 2. JIRA 3. ALM 4. RALLY.
+
+### Delivery and Maintenance :
+
+Evaluate cycle completion criteria based on Time, test coverage, cost, software, critical business objectives, and quality.
+**Typical Exit criteria may include the following :**
+- All test plans have been executed.
+- A certain level of Requirements coverage has been achieved.
+- No high priority or severity bugs are left outstanding.
+- All high-risk areas have been fully tested with only minor residual risks left outstanding.
+- Cost:  when the budget has been spent.
+- The schedule has been achieved.
+
+### Maintenance :
+Once a system is deployed it is in service for years and decades. During this time the system and its operational environment is often corrected, changed or extended. Testing that is provided during this phase is called maintenance.
+
+**Usually maintenance testing is considering as 2 parts.**
+-	First one is testing the changes that has been made because of the correction in the system or if the system is extended or because of some additional features added to it.
+-	Second one is regression test to prove that the rest of the system has been affected by the maintenance work.
+
+### Metrics :
+A Metric is a quantitative measure of the degree to which a system, system component or process a given attribute.
+> Metrics can be identified as “Standards of Measurements". Software metrics are used to measure the quality of the project simply, metric is unit used for describing an attribute
+metrics a scale for measurement.
+
+#### Test Metrics examples :
+- How many defects are existed within the module?
+- How many TC's are executed per person?
+- What is the test coverage in %?
+
+**Why test Metrics :**
+
+Generation of testing metrics is the most responsibility of the software by Test Lead or Manager.
+
+- “We can't improve what we can't measure".
+- “We can't control what we can't measure".
+- Take decision for next phase of activities.
+- Evidence of the claim or prediction.
+- understand type of improvement required.
+- Take decision the process or technology change. 
+
+**Effectiveness :**
+
+Doing the right thing, it deals with meeting the desirable attributes that are expected by the customer.
+
+**Efficiency :**
+
+Doing the thing right it concerns the resources used for the service to be renewed.
+
+**Formulas :**
+**a. Test plan coverage on the functionality :**
+  
+   Formula = (number of Requirements covered/ Total number of Requirements) *100.
+
+**b. Test case density :**
+  
+  ##### Formula = (defective test scripts/total test scripts executed) *100.
+  
+**Ex:** 
+Total test scripts developed - 1360,  \
+Total test scripts executed - 1280,  \
+Total test scripts pass - 1065,  \
+Total test scripts failed - 215. \
+Test case defect density is 215 / 1280 * 100 = 16.8% \
+This 16.8% value can also be called as test case efficiency% which is depends on total number of TC's which uncovered defects.
+
+**c. Defect Slippage Ratio :**
+
+Number of defects slipped (Reported from product) Vs number of TC's reported during execution.
+
+**Formula :** Number of defects slipped / (Number of defects raised - number of defects withdrawn) *100
+
+**Ex :** Customer field defects are 21, total defects found while testing are 267, total number of invalid defects are 17.
+So, Defect slippage ratio is [21/(267-17)]*100 = 8.4 .
+
+**d. Requirement Volatility :**
+
+Number of Requirements agreed vs. number of Requirements changed.
+
+**Formula :**
+
+(Number of Requirements added + deleted + modified) / Number of original Requirements * 100.
+
+**Ex :**
+VSS 1.3 release has 67 Requirements initially, later they added another 7 new requirements and removed 3 from initial Requirements and modified 11 Requirements.
+So, Requirement volatility is = (7+3+11) / 67 * 100 = 31.34 %
+
+It means almost 1/3 the requirement changed after initial identification.
+	
+**e. Review Efficiency :**
+
+The Review efficiency is a metric that offers insight on the review quality and testing some organization also use this term as 'Static Testing' efficiency and they are aiming to get minimum of 30% of defects in static testing.
+
+**Formula :**
+
+(Total number of defects found by reviews / Total number of project defects) * 100.
+
+**Ex :**
+A project found total 269 defects in different reviews, which were fixed and test team got 476 defects which were reported and valid.
+So, review Efficiency is [269 / (269 + 476)] * 100 = 36.1%
+
+**f. DRE (Defect Removal efficiency) :**
+
+DRE = Defects removed during Development phase / defects latent in the product *100
+
+Defects latent in the product = Defects removed during Development phase + defects found later by user.
+
+Another Example for DRE (Defect Removal Efficiency)
+
+DRE = A / A+B
+
+A – Bugs found at the testing side.
+
+B – Bugs found at the Client Side.
+
+DRE = 0.8 – 0.9 is Good Status
+
+[ 0.7 – 0.8 is requires improvement
+
+< 0.7 is Poor Status. ]
