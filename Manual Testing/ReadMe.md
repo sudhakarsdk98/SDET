@@ -1123,3 +1123,10 @@ Recovery Testing is done in order to check how fast and better the application c
 
 ### STLC( Software or system testing life cycle) :
 
+> STLC identifies what test activities to carry out and when to accomplish those test activities. Even though testing differs between organisations there is a Testing Life Cycle.
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/d20f1545-3f1f-4dfd-b767-426e4afb6265" height="450" alt="STLC" />
+  <img width="100" />
+</div>
+
