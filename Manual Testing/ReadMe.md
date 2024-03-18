@@ -1207,3 +1207,214 @@ TC4 - Enter invalid UN and invalid password.
 Step1: Detailed study of the system under test. \
 Step2: Written in simple language \
 Step3: Test Case template.     
+
+**TC template :**
+
+|S.No. |	TC ID |	TC Name |	Description |	Pre-Conditions |	Execution Steps |	Expected Results |	Actual Results |	Status |	Comments|
+|------|--------|---------|-------------|----------------|------------------|------------------|-----------------|---------|----------|
+|      |        |         |             |                |                  |                  |                 |         |          |
+
+**TC ID :**  
+It is the unique number is given to TC in order to identified. This field is defined by the type of system we are testing.
+
+**TC Name :** This can contain
+
+1. Name of the feature you are testing.
+2. Requirement number form the specifications.
+3. Requirement name as classified in clients.
+4. This gives more specific name like particular button or text box name, for which that particular TC is related. For TC we will specify to which Requirement is belongs to.
+
+**Description :** This field has the summary what respective TC is going to do, explains what attributes are under test and under what conditions.
+
+**Pre-Conditions :**
+Any pre-requisites or pre-conditions that must be fulfilled prior to executing the test should be defined clearly.
+
+**Pre-Conditions could be :**
+
+1. A certain page that a user needs to on.
+2. A certain data that should be in the system.
+3. A certain action to be performed before 'execution steps' can be executed on the particular system.
+
+**Execution Steps :**
+
+These are the steps to be performed on the system under the test to get the desired results. Steps must be defined clearly and must be accurate. They are written and executed number wise. This is very important specific object. This is the navigation for this TC.
+**For ex :**
+
+1. Navigation to Gmail account (https://gmail.com/).
+2. In the email field, enter the email ID of the registered user 
+3. Click the 'Next' button
+4. Enter the password of the registered user.
+5. Click on Sign-in
+
+**Expected Results :**
+
+This is the results of the execution Steps performed. It specifies what the specification or user expects from that particular action.
+Expected results should be clear or each expectation of a Test Case, so that we can specify pass or fail criteria for each expectation.
+
+**Actual results :**
+This field has the actual outcomes after the execution steps were performed on the system under test. We will test the actual application against each Test Case and if it matches the expected results then we will say it "as expected". Else we will write what actuals happens after doing those actions.
+
+**Status :**
+
+It is simply indicating pass or fail status of the particular Test Case.
+  -Passed: If the expected and actual results Match.
+  -Failed: If the expected and actual results don't match.
+  -Not tested: The Test Case has not been executed.
+  -Hold: if the Test Case depends on failed Test Case, so Test Case status as hold.
+
+**Comments :** This column is for additional information. 
+
+Ex. If status set to 'cannot be tested' then the tester can give the reason in this column.
+
+**Testing Artifacts :**
+1. Code
+2. Documentation - Test Design specification, Test Review Document, Test script specification.
+3. Test Cases
+4. Requirements - Component specifications, Functional specifications, Use Cases, User requirements.
+5. Test condition
+6. Test Plan
+7. Test Schedule.
+8. Environment (TEST, STG etc.,)
+
+**Test Case review: **
+
+Reviewing is a form of testing tool. The verification part of V&V (Verification and Validation) also called as static testing.
+
+**Why Review :**  For exactly some reason we test the software.
+- To uncover errors.
+- To check for completeness
+- To make sure the standards and guidelines are followed.
+
+**Review Check List :**
+- Do Test Cases are cover all Requirements?
+- Has each Test Case been assigned a TC identifier?
+- Does each TC specify?
+    * Actions, .Test Condition, . Expected Result
+- Have expected results been recorded in detail?
+- Is any method validating expected results specified?
+- Test Case's for field validations, record validations and database updates include the following conditions?
+   * Valid conditions, Invalid conditions, boundary or usual conditions.
+- Do TC's for reports include the test data along with expected output?
+- Have the inter TC dependencies been described?
+- Have Pass/Fail criteria been specified?
+- Have all requested environments been specified?
+- Has the method for logging on the test environment been specified?
+- Are Pre-Conditions for the test specified?
+- Is the number of TC's meeting customer standards?
+
+**Review Types :**
+
+Self-Review: Review our own work by us.
+
+Peer Review: Review our own work by colleague.
+
+Lead Review: Review our work by our test lead or manager.
+
+Client Review: Review our work by Client or Business team after lead review.
+
+
+**Deliverables :** TC document, Test Data.
+
+### 4.	Test Environment Setup :
+Test environment decides the software and hardware condition under which work product is tested.
+Test environment setup is one of the critical aspects of the testing process and can be done in parallel with TC development stage. Test team may not be involved in this activity of the customer or development team provides the test environment in which case the test team is required to do a readiness check (smoke testing) of the given environment.
+
+**Deliverables :** Test environment.
+
+**How many environments are we have?**
+
+A typically can the following environments are.
+
+-DEV, -TEST, -STAGE, -ALPHA, -BRAVO, -CHARLIE, -MASTER, -PROD & -TRAINING.
+
+### 5.	Test Execution : 
+In this phase testing team can start executing TC's based on prepared test planning and prepared TC's in the prior step in TEST environment.
+
+**Deliverables :** TC's updated with results.
+
+### 6.	Result Analysis and reporting or Test Closure :
+After the test execution phase if the TC is passed then same can be marked as passed. If any TC is failed then corresponding defect can be reported to development team via bug tracking system and bug can be linked for corresponding TC for further analysis.
+
+## Defect Life Cycle :
+
+#### Defect format :  
+- Defect ID, (Its Automatic generated by System)
+- Date, -(Its Automatic generated by System)
+- Created By, (Its Automatic generated by System)
+- Assigned To, 
+- Bug description, 
+- Steps to produce, 
+- Expected Results, 
+- Comments, 
+- Screen shots. (Need Attachment the document)
+
+> DLC is a cycle which a defect goes through during its life time.
+> It starts when defect is found and ends when defect is closed, after ensuring it's not reproduced. DLC is related to the bug found during testing.
+
+The life cycle of the bug can be shown diagrammatically as follows.
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/6ff491ef-08c4-48bf-aceb-c94d1b8bc363" height="450" alt="DLC" />
+  <img width="100" />
+</div>
+
+New: when defect is logged and posted for the first time by the tester. Its state is given as 'New'.
+
+Assigned: After the tester has posted the bug, the lead of the Development team approves that the bug is genuine and he assign the bug to corresponding Developer. Its state changed as “Assigned”.
+
+Open: At this stage the Developer has stated analysing and working on the defect fix.
+
+Fixed: When Developer makes necessary code changes and verifies the changes then he/she can make bug status as fixed and the bug is passing to testing team.
+
+Retest: At this stage the tester does the Re-Testing of the changed code which Developer has given to him to check whether the defect got fixed or not.
+
+Verified: The tester tests the bug again after it got fixed by the Developer. If the bug is not present in the software, he (Tester) approves that the bug is fixed and changes the status as verified.
+
+Reopen: If the bug is still existing even after the bug is fixed by the Developer, the tester changes the status to 're-open’. The bug goes through the defect life cycle once again.
+
+Closed: Once the bug is fixed, it is tested by the tester. If the tester feels that the bug is no longer exists in the software, the changes status of the bug to 'closed'. This state means that the bug is fixed, tested and approved.
+
+Duplicate: If the bug is repeated twice or two bugs mentioned the same concept of the bug, then the bug status is changed to 'Duplicate' by Developer.
+
+Rejected: If the Developer feels that the bug is not genuine, he rejects the bug. Then the state of the bug is changed to 'Rejected'.
+
+Deferred: The bug is changed to deferred state means that bug is expected to be fixed in next releases. The reason for the changing the bug to this state have many factors. Some of them are priority of the bug may be low, lack of time for the release or the bug may not have major effect on the software.
+
+Not A Bug: The state given as ' Not a bug’, If there is no change in the functionality of the application.
+Ex. If the customer asks for some changes in the look and feel of the application like change of colour of some text them it not a bug, but it just some changes in the looks of the application.
+
+Severity: (Seriousness of the functionality)
+Seriousness of the defect w.r.to the functionalities. It is the extent to which the defect can affect the software. In other words, it defines the impact that a given defect has on the system.
+If an application or webpage crashes when remote link is clicked, in this case the remote link by a user is rare but the impact of the application crashing is severe so the severity is high but priority is low.
+
+Status1 - Critical: The defect that results in the termination of the complete system or one or more.
+Component of the system and causes extensive corruption of the data the failed function is unusable and there is no acceptable alternative method to achieve the required results then the severity will be stated as critical.
+
+Note: Critical defect should be fixed within 24 hours by Developer.
+
+Status2 - Major: The defect that results in the termination of the complete system or one or more, Component of the system and causes extensive corruption of the data the failed function is unusable and there exists an acceptable alternative method to achieve the required results then the severity will be stated as Major.
+
+Note: Major defect should be fixed within 48 hours by Developer.
+
+Status3 - Medium:
+The defect that doesn't results in the termination, but causes the system to produce incorrect, incomplete or inconsistent results then the severity will be stated as moderate.
+
+Note: Medium defect should be fixed within 3 days by Developer. 
+
+Status4 - Minor:
+The defect that doesn't results in the termination and doesn’t damage the usability of the system and the desired results can be easily obtained by working around the defects then the severity is stated as minor.
+
+Status5 - Cosmetic:
+The defect that is related to the enhancement of the system where the changes are related to the look and feel of the application then the severity is stated as cosmetic.
+
+Priority: (Importance of the customer)
+Priority defines the order in which we should resolve a defect. Should we fix it now or can it wait?
+The priority states are set by the tester to the Developer maintaining the time frame to fix the defect. If high priority is mentioned then the Developer has to fix it at the earliest. This priority status is set based on the customer Requirements.
+Ex: if the company name is misspelled in the home page of the website then the priority is high and severity is low to fix it.
+
+Status1 - Low: The defect is an irritant we should be repaired, but repair can be differed until after more serious defect has been fixed.
+
+Status2 - Medium: The defect should be resolved in the normal cause of Development activities. It can wait until a new build or version.
+
+Status3 - High: The defect must be resolved ASAP because the defect is affecting the application or the product is severely. The system cannot be used until the repair has been done.
+
