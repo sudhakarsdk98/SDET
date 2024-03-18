@@ -1146,3 +1146,64 @@ RTM (Requirement traceability matrix) and clarification document.
 |-------|------------------------|----------------------------|------------------|-----------------|--------|----------------------------|--------|
 |1. |	As the user validate the Login functionality	|Validate the ICICI login functionality |	ICICI_LOG_1|	To validate the username functionality|	TC_01	|Min 8-12 alphanumeric of the username field	|Requirement INDEX links for tracing the requirement of the Username field functionality.|
 |2.|	As the user validate the Login functionality|	Validate the ICICI login functionality|	ICICI_LOG_2	|To validate the Password functionality	|TC_02	|Min 6-15 alphanumeric of the Password field. Note: Password should be in Protect Mode	|Requirement INDEX links for tracing the requirement of the Password filed functionality.|
+
+**Clarification Document :**
+It contains all clarifications which will arise during the requirements analysis phase.
+
+**Sample :**
+
+|S.No |	Date |	Module / Page name |	Query Description |	Detected by (Tester Name) |	Solutions provided by |	Status |	Comment|
+|-----|------|---------------------|--------------------|---------------------------|-----------------------|--------|---------|
+|1.  |	01/06/2021 |	Login Module |	If user can enter with special characters in User name filed, what kind of the error  or Popup can be expected by the user or customer? |	John | Paula |	Open or Closed	|      |
+
+### 2.	Test Planning :
+**What is the test plan?**
+Test Planning is the first step of the testing process in this phase we identify the activities and resources which would help to meet the testing objectives.
+
+**What Test Plan contains :** \
+(IEEE 829 STANDARD TEST PLAN TEMPLATE) \
+(IEEE - Institute of Electrical and Electronics Engineers).
+- Test Plan identify
+- Test Deliverables
+- Introduction
+- Test tasks 
+- Test items
+- Environmental needs
+- Features to be tested
+
+**Who will prepare the test plan?** \
+TL (Test Lead) or TM (Test Manager)
+
+**Test Strategy :**
+A Test strategy is high level document and normally developed by Project Manager or Test Manager. The document defines s/w Testing approach to achieve testing objectives. The test Strategy is normally derived from the business requirement specification document.
+
+**Test Plan vs Test Strategy :** 
+The planning document is combination of strategy plugged with overall project plan according to the IEEE standard 829-2008, strategy plan is a sub item of test plan.
+
+### 3.	TC development : 
+During this phase the Test cases will be prepared.
+
+ #### 1. Test scenario :
+Test scenario gives the idea of what we have to test. Test scenario like high level Test Case. \
+Test scenario answers "what to be tested?” Assume that we need to test the functionality of a login page of Gmail application.  
+
+**Test scenario for the Gmail login page functionality will look like :** 
+
+TC Scenario - Ex: verify the GMAIL login functionality.
+
+#### 2. Test Case : 
+Test cases are set of positive and negative executable steps of a test scenario, which has a set of pre-conditions, test data, expected result, Post conditions and actual results.
+
+**Test case answers "How to be tested?”*
+
+Assume that we need to test the functionality of a login page of Gmail application. \
+**Test cases for the above login page functionality as follows :**	\
+TC1 - Enter valid UN and Valid Password \
+TC2 - Enter valid UN and invalid password \
+TC3 - Enter invalid UN and Valid Password \
+TC4 - Enter invalid UN and invalid password.
+
+**Strategy to develop Good TC Format :** \
+Step1: Detailed study of the system under test. \
+Step2: Written in simple language \
+Step3: Test Case template.     
