@@ -202,6 +202,48 @@ In this phase designers can create 2 documents like below :
 #### Validation :
   _It is a process of validating, “Are we building the right product?”. It is also called as dynamic testing._
 
+#### Verification and Validation :
+
+The process of evaluating work products (not the actual final product) of Dev Phase to determine whether they meet the requirements specified. Verification is done at the starting of the Dev process. It includes reviews, meetings, walkthroughs, inspection etc to evaluate documents, plans, code, requirements and specifications.    
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/d6723e95-40f0-4727-8794-911893224e94" height="200" alt="Verification & Validation" />
+  <img width="100" />
+</div>
+//////////////////////////////////////////////////////////////////////////////////////////
+Who will perform: peers (Team members, Architect’s, Analysts).
+
+Verification Techniques:
+1) Reviews 2) inspection 3) walkthrough
+
+1)	Reviews:  A review is a systematic examination of document by one or more people with the main aim of finding and removing errors early in the software development life cycle.
+There are two types of reviews are held in verification. 
+i)	Formal review        
+ii)	Informal review
+
+Formal review:
+Formal review is following a formal process. It is well structured and regulated. It contains planning Kick-off, preparations, review meeting and rework.
+
+Informal review:
+Informal reviews are applied many times during the early stages of the life cycle of the document. A two persons team can conduct an informal review. The most important thing to keep in mind about the informal review is that they are not documented.
+
+Inspection:
+Inspection is a most formal form of reviews, a strategy adopted during static testing phase.
+- it is a most formal review type.
+- it is led by the trained moderators
+- During inspection of the documents are prepared and checked thoroughly by the reviewers before the meeting.
+
+Walkthrough:
+A Walkthrough is conducted by document the author under of the review. Who takes the participants document and his or her thought process to achieve a common understanding and gather the feedback.
+
+Validation:
+The process of evaluating the software during or at the end of the development process to determine whether it's satisfies specified business requirements.
+
+Who will perform:
+Testing team, Dev team, client or BA team.
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
 ### Phases of V-Model:
 #### 1.	Information and gathering stage:
    In this stage BA (Business Analyst) studies the requirements of the client / customer and prepares the BRS (Business Requirement Specification) documents.
@@ -762,4 +804,76 @@ GB testing is combination of both WB testing and BB testing method.
 |5. This is the time consuming and exhaustive.|5. Partly time consuming and exhaustive.|5. The most exhaustive and time-consuming type of testing.|
 |6. Not Suited to algorithm testing.|6. Not Suited to algorithm testing.|6. Suited for algorithm testing.|
 |7. This is only be done by trial-and-error method.|7. Data domains and internal boundaries can be tested if known.|7. Data domains and internal boundaries can be better tested.|
+
+### Levels of Testing :
+#### Component/unit --> Integration--> System--> Acceptance.
+
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/9f498c1c-3cef-4a4f-b2ee-03fc1407cbb2" height="400" alt="Levels of Testing" />
+  <img width="100" />
+</div>
+
+
+> In SDLC models there are defined phases like require coding or implementation, testing and deployment. Each phase goes through the testing. Hence there are various levels of Testing.
+
+#### 1. Unit testing :
+A unit is the smallest testable part of an application produces like functional interfaces. Unit testing is a method by which individual units of source code are tested to determine if they are fit for use.
+Unit tests are basically written and executed by software to make sure that code meets its design and requirements and behaves as expected.
+
+#### 2. Module/ Component testing :
+Component testing is a method where testing of each is done separately. Suppose in an application there are 5 components, testing of each 5 components separately and efficiently is called a component testing. Component testing is done by testers.
+
+#### 3. Integration testing :
+After completion of dependent modules of development and testing programs combine them to form a system or application or build. In this integration they are conducting integration testing on the compiled modules w.r.to HLD’s. 
+
+**There are 3 approaches to conduct the integration testing.**
+
+##### a. Top Down approach :
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/6f93482f-3e22-4c41-adbe-2ba74e1f4d1d" height="300" alt="Top Down approach" />
+  <img width="100" />
+</div>
+
+In this approach testing is conducted on main module without conducting testing to some of sub modules, from above diagram a 'STUB' is a temporary program instead of under constructive sub module, it is also known as called program.
+
+##### b. Bottom up approach :
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/18ebcebd-9550-4474-b7c3-05e94c088fa9" height="300" alt="Bottom up approach" />
+  <img width="100" />
+</div>
+
+In this approach testing is conducted on sub modules without conducting testing on main module. From above diagram a ‘DRIVER’ is a temporary program instead of the main module. It is also known as calling program.
+
+##### C. Sandwich or Hybrid Approach :
+
+<div align="center">
+  <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/cde0a95b-3cbb-4ce5-947a-28953f2dbb19" height="300" alt="Sandwich or Hybrid Approach" />
+  <img width="100" />
+</div>
+
+In this approach testing is conducted taking both Top-Down and Bottom-Up approaches.
+
+**Application/Build/System :** A finally integrated all modules to set .EXE form file is called Build.
+
+#### 4. System Testing :
+Once all the components are integrated and evaluate system's compliance with its specified requirements. System testing is most often the final test to verify that the system to be delivered meets the specification.
+
+#### 5. UAT : (User Acceptance Testing)
+Acceptance testing is basically done to ensure specification requirements are met. Also known as “End user testing” and “Operational Acceptance Testing”. The acceptance is BlackBox testing which means UAT users aren’t aware of internal structure of the code. They just specify the input to the system and check whether systems respond with correct results.
+
+- The goal of UAT testing is to establish confidence in the system.
+- Acceptance testing is most often focused on a validation of testing.
+
+**Organization management concentrate on UAT to collect feedback there are 2 approaches to conduct the testing.**
+
+##### Alpha Testing :
+It is done at the Developers site and implement at the end stage. It is conducted at the Developer's site by customer which is controlled environment.
+
+##### Beta testing :
+Beta testing is also known as user testing takes place at the end-user’s site by end users to validate the usability, functionality, compatibility and reliability testing. It's conducted at one or more customer’s site by end users, but environment can't be controlled by Developers.
+
+**Who will perform the UAT ?** Acceptance testing is basically done by the user or customer although other stakeholders may be involved as well.
 
