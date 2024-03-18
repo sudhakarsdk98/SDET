@@ -1121,7 +1121,7 @@ Installation Testing is performed to ensure that all necessary components are in
 Recovery Testing is done in order to check how fast and better the application can recover after it has gone through type of crash or failure.
 
 
-### STLC( Software or system testing life cycle) :
+## STLC( Software or system testing life cycle) :
 
 > STLC identifies what test activities to carry out and when to accomplish those test activities. Even though testing differs between organisations there is a Testing Life Cycle.
 
@@ -1130,3 +1130,19 @@ Recovery Testing is done in order to check how fast and better the application c
   <img width="100" />
 </div>
 
+### 1.	Requirement Analysis :
+During this phase test team studies the requirements from a testing point of view to identify the testable requirements.
+
+The QA-Quality Analyst team may interact with various stakeholders (Client, Business Analyst, Tech leads and System Architects etc.) to understand the requirements are in detail. Requirements could be functional (defining what the s/w must do) or non-functional (Defining system performance/ security availability).
+
+#### Deliverables (Requirements) :
+RTM (Requirement traceability matrix) and clarification document.
+
+**RTM :** Traceability matrix links a business requirement to its corresponding functional requirement. If TC's are failed, traceability matrix helps determine the corresponding functionality easily. It is also helping to ensure that all requirements are tested or covered.
+
+**Sample RTM :**
+
+|S.no.	| Business functionality |	Test scenario description |	Test scenario ID |	TC description |	TC ID	| scope of the TC (Comments) |	LINKS|
+|-------|------------------------|----------------------------|------------------|-----------------|--------|----------------------------|--------|
+|1. |	As the user validate the Login functionality	|Validate the ICICI login functionality |	ICICI_LOG_1|	To validate the username functionality|	TC_01	|Min 8-12 alphanumeric of the username field	|Requirement INDEX links for tracing the requirement of the Username field functionality.|
+|2.|	As the user validate the Login functionality|	Validate the ICICI login functionality|	ICICI_LOG_2	|To validate the Password functionality	|TC_02	|Min 6-15 alphanumeric of the Password field. Note: Password should be in Protect Mode	|Requirement INDEX links for tracing the requirement of the Password filed functionality.|
