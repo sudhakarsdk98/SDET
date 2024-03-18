@@ -210,38 +210,38 @@ The process of evaluating work products (not the actual final product) of Dev Ph
   <img src="https://github.com/sudhakarsdk98/SDET/assets/161011127/d6723e95-40f0-4727-8794-911893224e94" height="200" alt="Verification & Validation" />
   <img width="100" />
 </div>
-//////////////////////////////////////////////////////////////////////////////////////////
-Who will perform: peers (Team members, Architect’s, Analysts).
 
-Verification Techniques:
+
+**Who will perform :** peers (Team members, Architect’s, Analysts).
+
+#### Verification Techniques:
 1) Reviews 2) inspection 3) walkthrough
 
-1)	Reviews:  A review is a systematic examination of document by one or more people with the main aim of finding and removing errors early in the software development life cycle.
+**1)	Reviews :**  A review is a systematic examination of document by one or more people with the main aim of finding and removing errors early in the software development life cycle.
 There are two types of reviews are held in verification. 
 i)	Formal review        
 ii)	Informal review
 
-Formal review:
+**Formal review :**
 Formal review is following a formal process. It is well structured and regulated. It contains planning Kick-off, preparations, review meeting and rework.
 
-Informal review:
+**Informal review :**
 Informal reviews are applied many times during the early stages of the life cycle of the document. A two persons team can conduct an informal review. The most important thing to keep in mind about the informal review is that they are not documented.
 
-Inspection:
+**Inspection :**
 Inspection is a most formal form of reviews, a strategy adopted during static testing phase.
 - it is a most formal review type.
 - it is led by the trained moderators
 - During inspection of the documents are prepared and checked thoroughly by the reviewers before the meeting.
 
-Walkthrough:
+**Walkthrough :**
 A Walkthrough is conducted by document the author under of the review. Who takes the participants document and his or her thought process to achieve a common understanding and gather the feedback.
 
-Validation:
+**Validation :**
 The process of evaluating the software during or at the end of the development process to determine whether it's satisfies specified business requirements.
 
-Who will perform:
+**Who will perform :**
 Testing team, Dev team, client or BA team.
-///////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ### Phases of V-Model:
@@ -876,4 +876,250 @@ It is done at the Developers site and implement at the end stage. It is conducte
 Beta testing is also known as user testing takes place at the end-user’s site by end users to validate the usability, functionality, compatibility and reliability testing. It's conducted at one or more customer’s site by end users, but environment can't be controlled by Developers.
 
 **Who will perform the UAT ?** Acceptance testing is basically done by the user or customer although other stakeholders may be involved as well.
+
+## Functional and Non-functional Testing :
+
+### Functional Testing:  (System Testing or Black Box Testing or Build verification testing)
+FT is a Testing technique that is used to test the features or functionality of the software.
+> Testing the functionality of each and every component thoroughly or vigorously in an application against the requirement is called functional testing.
+
+Example: Requirement by the customer for banking application 
+
+1. Login:
+1.1)	Username: It should be a 15-digits.
+1.2)	Password: It should be a minimum of 8 and a maximum of 12 characters.
+
+ 2. Amount transfer:
+2.1) To a/c no: It should be 12 digits a/c number.
+2.2) Amount: It should accept a minimum of  $200 and a maximum of 50,000.              
+2.3) Bank Name: It should be a valid bank name.
+
+**Testing of the above requirement will look like this :**
+1)	For login, Customer has given a requirement that username should be of 15 digits so we will test the functionality of username field by: 
+-	Entering username less than 15 digits. (<15)
+-	Entering username greater than 15 digits. (>15)
+-	Entering alphanumeric characters in the username field.
+-	Entering special characters in the username field.   
+-	Entering 15-digits username. (=15)
+-	Leaving the username field blank and proceeding further.   
+
+2.	For the password field, the user has given a requirement that the password field should be minimum 8 and maximum 12 characters so we will test the functionality of the password field by:  
+-	Enter a password of less than 8 characters.
+-	Entering a password greater than 12 characters.
+-	Entering the password of character size between 12 to 16.
+-	Leave the password field blank and proceed.
+-	Entering the password of 8 characters.
+-	Enter a password of 12 characters.
+-	Enter the Special characters in the password filed.
+-	Password should be display in Protect mode.
+
+3.	In Amount transfer for the account number field user has given a requirement that to account number should be of 12 digits so we will test the functionality of account number field by:
+-	Entering account number less than 12 digits.
+-	Entering account number greater than 12 digits.
+-	Entering the account number of 12 digits.
+-	Entering Alphanumeric characters.
+-	Entering special characters.
+-	Leaving the Account number field blank and proceeding further. 
+
+4.	In amount transfer for the amount field, the user has given a requirement that amount should accept minimum $200 and maximum $50,000, so we will test the functionality of amount field by: 
+-	Entering an amount less than 200.
+-	Entering an amount greater than 50,000.
+-	Entering an amount in decimal. (Eg: $200.14)
+-	Entering the value which is between 200 and 50,000.
+-	Leave the amount field blank and proceed further. 
+-	Entering the amount with $ symbol.
+
+5.	In amount transfer for bank name the user has given a requirement that bank name should be valid bank name, so we will test the functionality of bank name field by: 
+-	Entering an invalid bank name.
+-	Entering special characters in the bank name field.
+-	Leaving the Bank name field as blank and proceed further.
+-	Entering numeric values in the bank name field.
+-	Enter the valid bank name.
+
+### Smoke Testing:  
+The smoke testing to Testing the basic functionality of the build or application declared as unstable and it is not tested any more until the smoke test of the build passes.
+
+### Sanity Testing :
+Sanity Testing it's a kind of software testing technique performed by the test team for some basic tests. The aim of basic test is to be conducted whenever new build is received for testing.
+
+The terminologies such as smoke test or build validation test or basic Acceptance test or sanity tests are interchangeably used, however each one of them is used under a slightly different scenario.
+
+Sanity test is usually unscripted helps to identified the dependent missing functionalities. It is used to determine if the section of the application is still working after a minor change. Sanity testing can be narrow and deep. Sanity test is a narrow regression test that the focuses on one or a few areas of functionalities.
+
+### Re-Testing :
+Retesting is executing a previously failed the test against the new software to check if the problem is resolved.
+
+### Regression Testing :
+Regression Testing is performed to verify if the build has not broken any other parts of the application by the recent code changes for defect fixing or for enhancement. The purpose of regression Testing is to verify that modifications in software or in the environment have not caused any unintended adverse side effects and the system still meets of the requirements.
+
+### Exploratory Testing :
+Testing of the software with any documents (TC's & Test planning) and identify the functionality of the application by exploring the application and learning the application they design the TC's and simultaneously execute them as well.
+
+### Ad-hoc testing :
+Testing of the application without any documentation to identify the functionality and perform the test execution based on application knowledge or experience.
+
+### Baseline Testing :
+Whenever the test team perform the test execution on application upgradation or migration with existing functionality of the application along with the snap shots is called “Baseline Testing”.
+
+### Monkey testing :  (Gorilla Testing)
+It's a software testing technique in which the testing system under test randomly. The input data that is used to test also generated randomly.
+
+**What is Monkey Testing?**
+In monkey testing, we randomly pick anyone feature and we somehow try to break it.
+Using monkey testing we check whether the application or system is getting crashed when random input values/data are provided to the application.
+In monkey testing, we do not write test cases and it's not mandatory for the tester to be aware of the full functionality of the application/system.
+
+
+**Monkey Testing Characteristics :**
+- Monkey testing is done when tester does not have time to write and execute test cases.
+- Monkey testing is random so the tester may not be able to reproduce bug/error.
+- In monkey testing, the tester should have good technical knowledge.
+
+**Advantages of Monkey Testing :**
+- Monkey testing can help us to find unique bugs.
+- When all the test execution is completed, tester can switch to monkey testing that will allow quick fixing of defects.
+
+### End to End Testing :
+It is a methodology is used to test whether the flow of an application is performing as designed from start to finish. The purpose of carrying out E2E test is to identify system dependencies and to ensure that the right information is passed between various system components and systems.
+
+
+**Difference between system testing and E2E testing :**
+There is not really huge difference between the two, in some of establishments the terms could be used interchangeably everywhere is different.
+
+**System Testing :**
+You are testing the whole system i.e all of its components to ensure that each is functioning as intended. This is more from a functional side to check against the requirements.
+
+**E2E testing :**
+This is more about the actual flow through a system in more realistic end user scenario. Can a user navigate the application as expected and does it works? You are testing the work flow.
+
+
+### Non-Functional Testing :
+#### UI Testing (User Interface) :
+GUI (Graphical User Interface) testing is checking the design of an application.
+
+Ex. Required/Optional, fields alignment, lengths, process bars, scroll bars etc.,
+ 
+#### Usability Testing :
+
+In usability testing basically the testers tests ease with which the user interfaces can be used. It tests that whether the application is user friendly or not.
+
+**Usability testing tests the following features of the software :**
+- How easy it is to use the software?
+- How easy is to learn the software?
+- How convenient is the software to end user?
+
+**What is Performance Testing?**
+Testing the stability and response time of an application by applying load on it (Number of users) is called performance testing.
+
+“Response time = Time is taken to send the request + Time taken to do the processing + Time taken to get the response back.”
+
+**Load :** Total number of users accessing the application at a given point of time is called a load.
+
+**Why performance testing?**
+Feature in the software or application is not only important. An application performance like stability, response time, speed also plays an important role.
+Performance testing is done to make sure software application is working properly in terms of speed, stability and scalability.
+With the help of performance testing, we come to know things to improve before the application goes live in the market.
+Without performance testing, our application will suffer from an issue like slow speed when many users are using the application simultaneously.
+
+**Types of performance testing :**
+
+#### Load Testing :
+Testing the stability and response time of the application by applying load which is less than or equal to the number of users.
+Stress Testing: Testing the stability and response time of the application by applying load more than the defined number of users and we keep applying load until the application crashes.
+
+#### Volume Testing :
+Here we transfer a huge volume of data from one location to another and then we check did this happened in the specified amount of time. To perform volume testing there are no ready-made tools available, we have to develop a script in order to perform volume testing.
+
+#### Soak Testing : 
+Testing stability and response time of application by applying load continuously (48 hours, 96 hours) for a particular period of time and make sure we do not exceed the number of defined users is called as soak testing.
+
+#### Spike Testing :
+Testing stability and response time of application by suddenly increase and decrease of the load to check the performance of the application is called spike testing.
+
+**Most common performance problems :**
+-	Long Load time: Load time should be kept to a minimum; users should not have to wait for too long for an application to start.
+-	Poor response time: Response time should be very quick. If response time is not quick then the user has to wait for too long and the user will lose interest if this happens.
+
+**Performance testing test case examples :**
+-	Verify the response time when many users are using the website.
+-	Verify maximum load (Number of users) an application or software can handle.
+-	Verify the response of application when more than expected number of users using the application.
+-	Verify the response time of application by suddenly increasing and decreasing the load.
+-	Verify the response time of application by continuously applying the load for a particular period of time.
+
+**Performance testing tools :**
+**Neoload :** It is powerful performance testing software used for automating testing of API and load testing of applications.
+**Load Ninja :** It is one of the best load testing tools. Load ninja provide us record and playback load test and run this test in real browsers at scale.
+**Load Runner :** It is most popular load testing tool. Load runner helps us to test the performance of application under load. It helps us to simulate thousands of concurrent users to generate real-time load.
+**Jmeter :** It is an open-source tool used for load testing as well as automating of API (Application program Interface). Jmeter helps us to analyse and measure the performance of web application. Also, Jmeter is platform independent.
+
+#### Stress Testing :  
+It is a form of testing that is used to determine the stability of a given system. Stress Testing involves testing beyond normal operational capacity often to a breaking point in order to observe the results. Stress Testing is a generic term used to describe the process of putting a system through stress.
+
+#### Load testing :
+Load testing is performed to determine system behaviour under both normal and at peak conditions. A load testing is usually conducted to understand the behaviour of the application under a specific expected load.
+
+Ex. If the number of users are increased then how much CPU, Memory will be consumed, what is the network and bandwidth response time.
+
+#### Performance testing :
+Performance testing is testing that is performed to determine how fast some aspects of a system perform under a particular work load. It can serve different purposes like it can demonstrate that the system meets performance criteria.
+
+#### Localisation Testing :
+Localisation translates the product UI and occasionally changes some initial settings to make it suitable for another region. Localisation Testing checks the quality of the products, localisation for a particular target culture locate.
+
+**The testing effort during localisation Testing focuses on**
+- Areas affected by localisation testing such as UI and content.
+- Culture / locale Specific, language specific and region specific.
+
+#### Globalization Testing :
+Globalization Testing is a testing process to check whether the software can perform in any locale or culture and functioning properly with all types of international Input's and steps to effectively make your product through global.
+
+This type of testing validates whether the application is capable for using all over the world and to check whether Input's are accepts all languages text.
+
+Ex: Zip code field in Sign-up form.
+- for globalised it should allow to enter the alphanumeric inputs.
+- for localised (India) it should allow to enter only numeric in Input field.
+
+#### Security Testing :
+Security Testing is basically to check that whether the application or product is secured or not.
+Can anyone hack the system or login the application without any authentication? It is a process to determine that an information system protects data and maintain functionality as intended. Security Testing is related to the security of data and functionality of the application. You should be aware of the following concepts while performing the security Testing.
+**1. Confidentiality :**
+The application should provide the data to the relevant party.
+
+Ex: One of the customer transactional data should not be visible to another customer; the irrelevant personal details of the customer should not be visible to the administrator and so on.
+
+**2. Integrity :**
+The data stored and displayed by the application should be correct. 
+
+Ex: After a withdrawal the customer's account should be debited by the correct amount.
+
+**3. Authentication :**
+It should be possible to attribute the data transmitted in the application to either the application or customer in other words. No one other than the customer or the bank should be able to create or modify any data.
+
+**4. Authorization :**
+The application or a user should only be able to perform the tasks which they are respectively authorised to perform. 
+
+Ex: A customer should not be able to withdrawal more than the balance in his account without having an overdraft facility. The application should be able to levy charges on customer account without prior customer.
+
+**5. Availability :** The data and functionality should be available to the users throughout the working period.
+
+Ex: if the banks operating timings are 8am to 8pm on all working days, it should be possible for a customer to access their account and make the necessary transactions on their account.
+
+**6. Non-repudiation:**
+At a later date it should not be possible for a party to deny that a particular transaction or data change took place.
+
+Ex: if a customer withdrawal an amount from their account, this should trigger the relevant actions (posting to their transaction records, debiting their account and sending them be notification etc.)
+
+#### Compatibility testing :
+ This testing ensures compatibility of the application built with various other objects such other web browsers, hardware platforms, Operating Systems, etc.
+ 
+Ex: Browser compatibility testing, OS compatibility testing.
+
+#### Installation Testing :
+Installation Testing is performed to ensure that all necessary components are installed properly and working as per the requirements of the s/w post installation. Installation process may include partial, full or upgrade install. 
+#### Recovery Testing :
+Recovery Testing is done in order to check how fast and better the application can recover after it has gone through type of crash or failure.
+
+
+### STLC( Software or system testing life cycle) :
 
