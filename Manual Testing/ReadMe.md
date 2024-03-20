@@ -1,3 +1,13 @@
+## Skip to contents :
+
+[Ways of Testing](https://github.com/sudhakarsdk98/SDET/tree/main/Manual%20Testing#ways-of-testing-)
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 # Manual Testing
 
   _Manual Testing is a type of software testing; it is the process of executing an application with the intention of finding defects by comparing the output behaviour of the application with the expected behaviour (requirements)._
