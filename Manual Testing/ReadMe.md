@@ -1,10 +1,14 @@
 ## Skip to contents :
 
-[Ways of Testing](https://github.com/sudhakarsdk98/SDET/tree/main/Manual%20Testing#ways-of-testing-)
+### [Agile Methodology](https://github.com/sudhakarsdk98/SDET/edit/main/Manual%20Testing/ReadMe.md#7-agile-model-)
 
+### [Ways of Testing](https://github.com/sudhakarsdk98/SDET/tree/main/Manual%20Testing#ways-of-testing-)
 
+### [Levels of Testing](https://github.com/sudhakarsdk98/SDET/tree/main/Manual%20Testing#levels-of-testing-)
 
+### [STLC - Software Testing Life Cycle](https://github.com/sudhakarsdk98/SDET/edit/main/Manual%20Testing/ReadMe.md#stlc-software-or-system-testing-life-cycle-)
 
+### [DLC - Defect or Bug Life Cycle](https://github.com/sudhakarsdk98/SDET/edit/main/Manual%20Testing/ReadMe.md#defect-life-cycle-)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
